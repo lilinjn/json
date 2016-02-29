@@ -204,7 +204,7 @@ for (json::iterator it = j.begin(); it != j.end(); ++it) {
 }
 
 // range-based for
-for (auto element : j) {
+for (const auto &element : j) {
   std::cout << element << '\n';
 }
 
